@@ -1,4 +1,4 @@
-# GRUPO ABERTO 
+# Trabalho de COmputação Distribuida
 
 # App
 
