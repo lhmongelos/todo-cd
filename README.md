@@ -1,4 +1,4 @@
-# Trabalho de COmputação Distribuida
+# Trabalho de Computação Distribuida
 
 # App
 
