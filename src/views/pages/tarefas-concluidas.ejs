@@ -1,0 +1,26 @@
+<!-- initial file -->
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../includes/head.ejs') %>
+
+    <body>
+        <%- include('../includes/header.ejs'); %>
+            <div class="container">
+                <%- include('../includes/sidebar.ejs', {percentage}); %>
+        <main class="main">
+            <div class="container-geral">
+                <div>
+                    <h4>Tarefas Concluídas</h4>
+                    <%- include('../components/tasks.ejs', {tasks: completeTasks, isDone: true}) %>
+                </div>
+
+            </div>
+        </main>
+
+        <%- include('../includes/task-edit-form.ejs') %>
+    </div>
+    <script src="./js/ui.js"></script>
+
+</body>
+
+</html>
